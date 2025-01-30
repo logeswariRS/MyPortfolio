@@ -18,7 +18,7 @@ export default function Header1({ scroll, handleMobileMenu }) {
                 	
 					{/* Logo Box */}
                 	<div className="pull-left logo-box">
-                    	<div className="logo"><Link href="/"><img src="assets/images/logo.png" alt="" title=""/></Link></div>
+                    	<div className="logo"><Link href="/"><img src="assets/images/l3.png" alt="" title=""/></Link></div>
                     </div>
                    	
 					{/* Nav Outer */}
@@ -54,7 +54,7 @@ export default function Header1({ scroll, handleMobileMenu }) {
 							<div className="social-box">
 								<Link target="_blank" href="http://facebook.com/" className="fab fa-facebook-f"></Link>
 								<Link target="_blank" href="http://twitter.com/" className="fab fa-twitter"></Link>
-								<Link target="_blank" href="http://linkedin.com/" className="fab fa-linkedin-in"></Link>
+								<Link target="_blank" href="https://www.linkedin.com/in/logeswari-ravi-070822225/" className="fab fa-linkedin-in"></Link>
 							</div>
 						</div>
 					

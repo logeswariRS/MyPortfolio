@@ -1,4 +1,4 @@
-import Link from "next/link"
+import Link from "next/link";
 
 export default function Services() {
     return (
@@ -22,8 +22,8 @@ export default function Services() {
                                             <div className="number-box">
                                                 <span className="number">01</span>
                                             </div>
-                                            <h4><Link href="blog-detail">Bookkeeping</Link></h4>
-                                            <div className="text">Being good with numbers is the most important part.</div>
+                                            <h4><Link href="blog-detail">Frontend Development</Link></h4>
+                                            <div className="text">Creating intuitive and responsive user interfaces using React.js, Vue.js, and Next.js.</div>
                                         </div>
                                     </div>
                                     
@@ -33,8 +33,8 @@ export default function Services() {
                                             <div className="number-box">
                                                 <span className="number">02</span>
                                             </div>
-                                            <h4><Link href="blog-detail">Business Analysis</Link></h4>
-                                            <div className="text">Gain Expertise in Analytics & Master Implement.</div>
+                                            <h4><Link href="blog-detail">Three.js Experiences</Link></h4>
+                                            <div className="text">Developing immersive 3D experiences and interactive games using Three.js.</div>
                                         </div>
                                     </div>
                                     
@@ -44,8 +44,8 @@ export default function Services() {
                                             <div className="number-box">
                                                 <span className="number">03</span>
                                             </div>
-                                            <h4><Link href="blog-detail">Tax Preparation</Link></h4>
-                                            <div className="text">Process of preparing the tax returns, often returns.</div>
+                                            <h4><Link href="blog-detail">SQL Database Management</Link></h4>
+                                            <div className="text">Designing, managing, and optimizing databases using SQL for efficient data storage and retrieval.</div>
                                         </div>
                                     </div>
                                     
@@ -55,8 +55,8 @@ export default function Services() {
                                             <div className="number-box">
                                                 <span className="number">04</span>
                                             </div>
-                                            <h4><Link href="blog-detail">Quickbooks Setup</Link></h4>
-                                            <div className="text">Time-saving tools you need to grow your business. </div>
+                                            <h4><Link href="blog-detail">Backend Development</Link></h4>
+                                            <div className="text">Building robust and scalable server-side applications using Node.js.</div>
                                         </div>
                                     </div>
                                     
@@ -71,7 +71,7 @@ export default function Services() {
                                 <div className="pattern-layer" style={{ backgroundImage: 'url(assets/images/icons/icon-1.png' }} ></div>
                                 <div className="pattern-layer-two" style={{ backgroundImage: 'url(assets/images/icons/icon-2.png' }} ></div>
                                 <div className="image wow slideInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
-                                    <img src="assets/images/resource/service.png" alt="" />
+                                    <img src="assets/images/services1.avif" alt="" style={{ width: '722px', height: '962px' }} />
                                 </div>
                             </div>
                         </div>
@@ -80,5 +80,5 @@ export default function Services() {
                 </div>
             </section>
         </>
-    )
+    );
 }

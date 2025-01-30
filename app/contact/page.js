@@ -1,10 +1,11 @@
 import Layout from "@/components/layout/Layout"
 import Link from "next/link"
+import Linkk from "@/components/contact.css"
 export default function Contact() {
 
     return (
         <>
-            <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Blog">
+            <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Contact">
                         
                 {/* Talk Section */}
                 <section className="talk-section">
@@ -18,9 +19,9 @@ export default function Contact() {
                                         <h2>Let’s Talk</h2>
                                     </div>
                                     <ul className="contact-list">
-                                        <li><Link href="#"><span className="icon flaticon-skype"></span>JessicaHornes</Link></li>
-                                        <li><Link href="#"><span className="icon flaticon-whatsapp"></span>(012) 345 - 6789</Link></li>
-                                        <li><Link href="#"><span className="icon flaticon-slack"></span>jessh.slack.com</Link></li>
+                                        <li><Link href="#"><span className="icon flaticon-skype"></span>Logeswari Ravi</Link></li>
+                                        <li><Link href="#"><span className="icon flaticon-whatsapp"></span>(814) 802 - 6390</Link></li>
+                                        <li><Link href="#"><span className="icon flaticon-slack"></span>LogeswariRavi.slack.com</Link></li>
                                     </ul>
                                 </div>
                             </div>
@@ -105,9 +106,7 @@ export default function Contact() {
                         </div>
                     </div>
                 </section>
-                {/* End Talk Section */}
-                
-                {/* Call To Action Section */}
+
                 <section className="call-to-action-section">
                     <div className="auto-container">
                         <div className="inner-container">
@@ -119,16 +118,15 @@ export default function Contact() {
                             <h1>Ready to Start This?</h1>
                             <div className="text">It’s easy to get in contact with me. Either call or write!</div>
                             <div className="btns-box">
-                                <Link href="tel:+012-345-6789"><span className="icon flaticon-phone-call"></span>(012) 345 - 6789</Link>
-                                <Link href="mailto:jessh@contact.com"><span className="icon flaticon-envelope"></span>jessh@contact.com</Link>
+                                <Link href="tel:+012-345-6789"><span className="icon flaticon-phone-call"></span>(814) 802 - 6390</Link>
+                                <Link href="mailto:jessh@contact.com"><span className="icon flaticon-envelope"></span>LogeswariRavi@contact.com</Link>
                             </div>
                         </div>
                     </div>
                 </section>
-                {/* End Call To Action Section */}
-
-
             </Layout>
         </>
     )
 }
+
+// alignment is not proper means the letters and lines are like dezi 

@@ -8,28 +8,28 @@ export default function Menu() {
     return (
         <>
             <ul className="navigation">
-                <li className="dropdown"><Link href="#"><span data-hover="Home">Home</span></Link>
-                    <ul>
+                <li ><Link href="/"><span data-hover="Home">Home</span></Link>
+                    {/* <ul>
                         <li><Link href="/">Home</Link></li>
                         <li><Link href="index-2">Home 02</Link></li>
-                    </ul>
+                    </ul> */}
                 </li>
-                <li className="dropdown"><Link href="#"><span data-hover="Blog">Blog</span></Link>
-                    <ul>
+                <li ><Link href="blog"><span data-hover="Blog">Blog</span></Link>
+                    {/* <ul>
                         <li><Link href="blog">Our Blog</Link></li>
                         <li><Link href="blog-classic">Blog Classic</Link></li>
                         <li><Link href="blog-detail">Blog Details</Link></li>
-                    </ul>
+                    </ul> */}
                 </li>
-                <li className="dropdown"><Link href="#"><span data-hover="Pages">Pages</span></Link>
-                    <ul>
+                <li ><Link href="blog-classic"><span data-hover="Pages">Services</span></Link>
+                    {/* <ul>
                         <li><Link href="/">Home</Link></li>
                         <li><Link href="blog">Our Blog</Link></li>
                         <li><Link href="blog-classic">Blog Classic</Link></li>
                         <li><Link href="blog-detail">Blog Details</Link></li>
                         <li><Link href="error-page">Error Page</Link></li>
                         <li><Link href="contact">Contact</Link></li>
-                    </ul>
+                    </ul> */}
                 </li>
                 <li><Link href="contact"><span data-hover="Contact">Contact</span></Link></li>
             </ul>

@@ -10,113 +10,65 @@ export default function BlogClassic() {
         <>
             <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Latest News">
                 {/* Sidebar Page Container */}
-                <div className="sidebar-page-container">
+                <div className="services-page-container">
                     <div className="auto-container">
                         <div className="row clearfix">
                             
                             {/* Content Side */}
                             <div className="content-side col-lg-8 col-md-12 col-sm-12">
-                                <div className="our-blogs">
+                                <div className="our-services">
                                     
-                                    {/* News Block Four */}
-                                    <div className="news-block-four">
+                                    {/* Service Block */}
+                                    <div className="service-block">
                                         <div className="inner-box">
                                             <div className="upper-content">
-                                                <div className="link-icon flaticon-push-pin-2"></div>
-                                                <ul className="post-info">
-                                                    <li><Link href="blog-detail">by James Korcs</Link></li>
-                                                    <li><Link href="blog-detail">25/08/2021</Link></li>
-                                                    <li><Link href="blog-detail">new</Link></li>
-                                                </ul>
-                                                <h2><Link href="blog-detail">Former DOJ criminal head to join latham</Link></h2>
-                                                <div className="text">Introduction On June 17, 2021, the Reserve Bank of India [RBI] released the draft framework for the regulation of Housing Finance Companies.</div>
+                                                <h2><Link href="service-detail">Web Development</Link></h2>
+                                                <div className="text">We specialize in creating responsive, user-friendly web applications using modern frameworks such as React.js and Vue.js.</div>
                                             </div>
                                             <div className="image">
-                                                <Link href="blog-detail"><img src="assets/images/resource/news-10.jpg" alt=""/></Link>
-                                                <div className="side-icon flaticon-clicking"></div>
+                                                <Link href="service-detail"><img src="assets/images/food-skill.avif" alt="Web Development"/></Link>
                                             </div>
                                         </div>
                                     </div>
                                     
-                                    {/* News Block Four */}
-                                    <div className="news-block-four">
+                                    {/* Service Block */}
+                                    <div className="service-block">
                                         <div className="inner-box">
                                             <div className="upper-content">
-                                                <ul className="post-info">
-                                                    <li><Link href="blog-detail">by James Korcs</Link></li>
-                                                    <li><Link href="blog-detail">25/08/2021</Link></li>
-                                                    <li><Link href="blog-detail">new</Link></li>
-                                                </ul>
-                                                <h2><Link href="blog-detail">Annual accounts statutory audit for companies</Link></h2>
-                                                <div className="text">We will prepare your annual financial statements as set out by companies acts. We will advise our clients on the software.</div>
+                                                <h2><Link href="service-detail">3D Visualization</Link></h2>
+                                                <div className="text">Our expertise in Three.js allows us to build immersive 3D experiences and interactive visualizations for various industries.</div>
                                             </div>
                                             <div className="image">
-                                                <Link href="blog-detail"><img src="assets/images/resource/news-11.jpg" alt=""/></Link>
-                                                <div className="side-icon flaticon-clicking"></div>
+                                                <Link href="service-detail"><img src="assets/images/3d.avif" alt="3D Visualization"/></Link>
                                             </div>
                                         </div>
                                     </div>
                                     
-                                    {/* News Block Four */}
-                                    <div className="news-block-four">
+                                    {/* Service Block */}
+                                    <div className="service-block">
                                         <div className="inner-box">
                                             <div className="upper-content">
-                                                <ul className="post-info">
-                                                    <li><Link href="blog-detail">by James Korcs</Link></li>
-                                                    <li><Link href="blog-detail">25/08/2021</Link></li>
-                                                    <li><Link href="blog-detail">new</Link></li>
-                                                </ul>
-                                                <h2><Link href="blog-detail">VIDEO - What 27-year age gap amongst partners?</Link></h2>
-                                                <div className="text">We will prepare your annual financial statements as set out by companies acts. We will advise our clients on the software.</div>
+                                                <h2><Link href="service-detail">SQL Database Management</Link></h2>
+                                                <div className="text">Designing, managing, and optimizing databases using SQL for efficient data storage and retrieval.</div>
                                             </div>
                                             <div className="image">
-                                                <img src="assets/images/resource/news-12.jpg" alt=""/>
-                                                <a onClick={() => setOpen(true)} className="lightbox-image overlay-box"><span className="icon flaticon-play"><i className="ripple"></i></span></a>
-                                                <div className="side-icon flaticon-clicking"></div>
-                                                <ModalVideo channel='youtube' autoplay isOpen={isOpen} videoId="Get7rqXYrbQ" onClose={() => setOpen(false)} />
+                                                <Link href="service-detail"><img src="assets/images/database-skill.avif" alt="Cybersecurity Interfaces"/></Link>
                                             </div>
                                         </div>
                                     </div>
                                     
-                                    {/* News Block Four */}
-                                    <div className="news-block-four">
+                                    {/* Service Block */}
+                                    <div className="service-block">
                                         <div className="inner-box">
                                             <div className="upper-content">
-                                                <ul className="post-info">
-                                                    <li><Link href="blog-detail">by James Korcs</Link></li>
-                                                    <li><Link href="blog-detail">25/08/2021</Link></li>
-                                                    <li><Link href="blog-detail">new</Link></li>
-                                                </ul>
-                                                <h2><Link href="blog-detail">Junior to senior energy is associate attorney </Link></h2>
-                                                <div className="text">We will prepare your annual financial statements as set out by companies acts. We will advise our clients on the software.</div>
+                                                <h2><Link href="service-detail">Booking Systems</Link></h2>
+                                                <div className="text">Our booking systems, built with React.js, offer seamless integration, user-friendly interfaces, and efficient management for your booking needs.</div>
                                             </div>
                                             <div className="image">
-                                                <BlogImageSlider />
-                                                <div className="side-icon flaticon-clicking"></div>
+                                                <Link href="service-detail"><img src="assets/images/book-skill.avif" alt="Booking Systems"/></Link>
                                             </div>
                                         </div>
                                     </div>
-                                    
-                                    {/* News Block Five */}
-                                    <div className="news-block-five">
-                                        <div className="inner-box">
-                                            <div className="pattern-layer" style={{ backgroundImage: 'url(assets/images/background/pattern-3.png' }} ></div>
-                                            <h2><Link href="blog-detail">“The law was made for one thing alone, for the exploitation of those who don't understand it.”</Link></h2>
-                                            <div className="author">/ Bertolt Brecht</div>
-                                        </div>
-                                    </div>
-                                    
-                                    {/* Post Share Options */}
-                                    <div className="styled-pagination">
-                                        <ul className="clearfix">
-                                            <li className="active"><Link href="#">1</Link></li>
-                                            <li><Link href="#">2</Link></li>
-                                            <li><Link href="#">3</Link></li>
-                                            <li><Link href="#">4</Link></li>
-                                            <li className="next"><Link href="#"><span className="flaticon-right-arrow"></span> </Link></li>
-                                        </ul>
-                                    </div>
-                                    
                                 </div>
                             </div>
                             
@@ -124,124 +76,51 @@ export default function BlogClassic() {
                             <div className="sidebar-side col-lg-4 col-md-12 col-sm-12">
                                 <aside className="sidebar sticky-top">
                                     
-                                    {/* Search */}
-                                    <div className="sidebar-widget search-box">
-                                        <form>
-                                            <div className="form-group">
-                                                <input type="search" name="search-field" placeholder="Search article" />
-                                                <button type="submit"><span className="icon fa fa-search"></span></button>
-                                            </div>
-                                        </form>
-                                    </div>
-                                    
-                                    {/* Categories Widget */}
-                                    <div className="sidebar-widget popular-posts">
+                                    {/* Contact Widget */}
+                                    <div className="sidebar-widget contact-widget">
                                         <div className="sidebar-title">
-                                            <h3>Recent Post</h3>
+                                            <h3>Contact Us</h3>
                                         </div>
                                         <div className="widget-content">
-                                            <article className="post">
-                                                <figure className="post-thumb"><img src="assets/images/resource/post-thumb-1.jpg" alt=""/><Link href="blog-detail" className="overlay-box"><span className="icon fa fa-link"></span></Link></figure>
-                                                <div className="text"><Link href="blog-detail">Lawyers Are About To Be Poor</Link></div>
-                                                <div className="post-info">21/08/2021</div>
-                                            </article>
-                                            <article className="post">
-                                                <figure className="post-thumb"><img src="assets/images/resource/post-thumb-2.jpg" alt=""/><Link href="blog-detail" className="overlay-box"><span className="icon fa fa-link"></span></Link></figure>
-                                                <div className="text"><Link href="blog-detail">Help From Hotshot With Training</Link></div>
-                                                <div className="post-info">20/08/2021</div>
-                                            </article>
-                                            <article className="post">
-                                                <figure className="post-thumb"><img src="assets/images/resource/post-thumb-3.jpg" alt=""/><Link href="blog-detail" className="overlay-box"><span className="icon fa fa-link"></span></Link></figure>
-                                                <div className="text"><Link href="blog-detail">Driving Efficiency In Law Firm Accounting</Link></div>
-                                                <div className="post-info">19/08/2021</div>
-                                            </article>
+                                            <div className="text">Feel free to reach out for any queries or services. We are here to help you!</div>
+                                            <ul className="contact-info">
+                                                <li>Email: <Link href="mailto:log@gmail.com">log@gmail.com</Link></li>
+                                                <li>Phone: +123 456 7890</li>
+                                            </ul>
                                         </div>
                                     </div>
                                     
                                     {/* Categories Widget */}
                                     <div className="sidebar-widget categories-widget">
                                         <div className="sidebar-title">
-                                            <h3>Categories</h3>
+                                            <h3>Services</h3>
                                         </div>
                                         <div className="widget-content">
-                                            <ul className="blog-cat">
-                                                <li><Link href="#">All</Link></li>
-                                                <li><Link href="#">Property</Link></li>
-                                                <li><Link href="#">Trading</Link></li>
-                                                <li><Link href="#">Jobs</Link></li>
-                                                <li><Link href="#">Tax</Link></li>
-                                                <li><Link href="#">Business</Link></li>
-                                                <li><Link href="#">Law & Order</Link></li>
+                                            <ul className="service-cat">
+                                                <li><Link href="#">Web Development</Link></li>
+                                                <li><Link href="#">3D Visualization</Link></li>
+                                                <li><Link href="#">Cybersecurity Interfaces</Link></li>
+                                                <li><Link href="#">Booking Systems</Link></li>
                                             </ul>
                                         </div>
                                     </div>
                                     
-                                    {/* Archive Widget */}
-                                    <div className="sidebar-widget archive-widget">
+                                    {/* Testimonials Widget */}
+                                    <div className="sidebar-widget testimonials-widget">
                                         <div className="sidebar-title">
-                                            <h3>Archive</h3>
+                                            <h3>Testimonials</h3>
                                         </div>
                                         <div className="widget-content">
-                                            <div className="form-group">
-                                                <select className="custom-select-box">
-                                                    <option>January, 2021</option>
-                                                    <option>February, 2021</option>
-                                                    <option>March, 2021</option>
-                                                    <option>April, 2021</option>
-                                                    <option>May, 2021</option>
-                                                    <option>June, 2021</option>
-                                                    <option>July, 2021</option>
-                                                    <option >August, 2021</option>
-                                                    <option>September, 2021</option>
-                                                    <option>October, 2021</option>
-                                                    <option>November, 2021</option>
-                                                    <option>December, 2021</option>
-                                                </select>
-                                            </div>
+                                            <div className="testimonial">"The web development services provided were exceptional. The team was professional and delivered beyond our expectations." - Client A</div>
+                                            <div className="testimonial">"Amazing 3D visualization! It truly transformed our presentation." - Client B</div>
+                                            <div className="testimonial">"Their cybersecurity interfaces are both secure and user-friendly. Highly recommend!" - Client C</div>
                                         </div>
                                     </div>
-                                    
-                                    {/* Categories Widget */}
-                                    <div className="sidebar-widget popular-posts style-two">
-                                        <div className="sidebar-title">
-                                            <h3>Most Popular</h3>
-                                        </div>
-                                        <div className="widget-content">
-                                            <article className="post">
-                                                <div className="text"><Link href="blog-detail">Bar Examiner Offers Less Than Inspiring Answers</Link></div>
-                                                <div className="post-info">21/08/2021</div>
-                                            </article>
-                                            <article className="post">
-                                                <div className="text"><Link href="blog-detail">So… Are We Going To Have A Test Of This October</Link></div>
-                                                <div className="post-info">20/08/2021</div>
-                                            </article>
-                                            <article className="post">
-                                                <div className="text"><Link href="blog-detail">California Bill Recommends Cut Score Retroactive2015</Link></div>
-                                                <div className="post-info">19/08/2021</div>
-                                            </article>
-                                        </div>
-                                    </div>
-                                    
-                                    {/* Popular Posts */}
-                                    <div className="sidebar-widget popular-tags">
-                                        <div className="sidebar-title">
-                                            <h3>Tags</h3>
-                                        </div>
-                                        <div className="widget-content">
-                                            <Link href="#">business</Link>
-                                            <Link href="#">Jobs</Link>
-                                            <Link href="#">New</Link>
-                                            <Link href="#">Property</Link>
-                                        </div>
-                                    </div>
-                                    
                                 </aside>
                             </div>
-                            
                         </div>
                     </div>
                 </div>
-                        
                 {/* Talk Section */}
                 <section className="talk-section">
                     <div className="auto-container">
@@ -254,9 +133,9 @@ export default function BlogClassic() {
                                         <h2>Let’s Talk</h2>
                                     </div>
                                     <ul className="contact-list">
-                                        <li><Link href="#"><span className="icon flaticon-skype"></span>JessicaHornes</Link></li>
-                                        <li><Link href="#"><span className="icon flaticon-whatsapp"></span>(012) 345 - 6789</Link></li>
-                                        <li><Link href="#"><span className="icon flaticon-slack"></span>jessh.slack.com</Link></li>
+                                        <li><Link href="#"><span className="icon flaticon-skype"></span>Logeswari Ravi</Link></li>
+                                        <li><Link href="#"><span className="icon flaticon-whatsapp"></span>(814) 802 - 6390</Link></li>
+                                        <li><Link href="#"><span className="icon flaticon-slack"></span>LogeswariRavi.slack.com</Link></li>
                                     </ul>
                                 </div>
                             </div>
@@ -356,7 +235,7 @@ export default function BlogClassic() {
                             <div className="text">It’s easy to get in contact with me. Either call or write!</div>
                             <div className="btns-box">
                                 <Link href="tel:+012-345-6789"><span className="icon flaticon-phone-call"></span>(012) 345 - 6789</Link>
-                                <Link href="mailto:jessh@contact.com"><span className="icon flaticon-envelope"></span>jessh@contact.com</Link>
+                                <Link href="mailto:jessh@contact.com"><span className="icon flaticon-envelope"></span>Logeshwari@contact.com</Link>
                             </div>
                         </div>
                     </div>
@@ -368,3 +247,6 @@ export default function BlogClassic() {
         </>
     )
 }
+
+
+

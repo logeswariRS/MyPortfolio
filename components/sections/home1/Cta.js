@@ -15,8 +15,8 @@ export default function Cta() {
                     <h1>Ready to Start This?</h1>
                     <div className="text">It’s easy to get in contact with me. Either call or write!</div>
                     <div className="btns-box">
-                        <Link href="tel:+012-345-6789"><span className="icon flaticon-phone-call"></span>(012) 345 - 6789</Link>
-                        <Link href="mailto:jessh@contact.com"><span className="icon flaticon-envelope"></span>jessh@contact.com</Link>
+                        <Link href="tel:+012-345-6789"><span className="icon flaticon-phone-call"></span>(814) 802 - 6390</Link>
+                        <Link href="mailto:jessh@contact.com"><span className="icon flaticon-envelope"></span>LogeswariRavi@contact.com</Link>
                     </div>
                 </div>
             </div>

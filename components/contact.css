@@ -1,0 +1,59 @@
+.auto-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -15px;
+}
+
+.col-lg-5, .col-lg-7 {
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.contact-list li {
+    margin-bottom: 10px;
+}
+
+.contact-list li .icon {
+    margin-right: 10px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.contact-form .form-group label {
+    margin-bottom: 5px;
+    display: block;
+}
+
+.theme-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    display: inline-block;
+}
+
+.call-to-action-section {
+    text-align: center;
+    padding: 40px 15px;
+}
+
+.call-to-action-section .btns-box {
+    margin-top: 20px;
+}
+
+.call-to-action-section .btns-box a {
+    margin: 0 10px;
+    display: inline-block;
+}

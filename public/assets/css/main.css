@@ -1569,7 +1569,7 @@ img{
 .main-slider .slide{
 	position:relative;
 	overflow:hidden;
-	padding:140px 0px 80px;
+	padding:0px 0px 80px;
 }
 
 .main-slider .content-column{

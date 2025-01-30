@@ -2,53 +2,37 @@
 import { Autoplay, Navigation, Pagination } from "swiper/modules"
 import { Swiper, SwiperSlide } from "swiper/react"
 
-
 const swiperOptions = {
     modules: [Autoplay, Pagination, Navigation],
     slidesPerView: 1,
     spaceBetween: 30,
-    // autoplay: {
-    //     delay: 2500,
-    //     disableOnInteraction: false,
-    // },
     loop: true,
-
-    // Navigation
     navigation: {
         nextEl: '.srn',
         prevEl: '.srp',
     },
-
-    // Pagination
     pagination: {
         el: '.swiper-pagination',
         clickable: true,
     },
-    
     breakpoints: {
         320: {
             slidesPerView: 1,
-            // spaceBetween: 30,
         },
         575: {
             slidesPerView: 1,
-            // spaceBetween: 30,
         },
         767: {
             slidesPerView: 1,
-            // spaceBetween: 30,
         },
         991: {
             slidesPerView: 1,
-            // spaceBetween: 30,
         },
         1199: {
             slidesPerView: 1,
-            // spaceBetween: 30,
         },
         1350: {
             slidesPerView: 1,
-            // spaceBetween: 30,
         },
     }
 }
@@ -56,71 +40,72 @@ const swiperOptions = {
 export default function PortfolioSlider1() {
     return (
         <>
-
-                <Swiper {...swiperOptions} className="s-sliders">
-                        
-                    {/* Gallery Block */}
-                    <SwiperSlide>
-                        <div className="project-block">
-                            <div className="inner-box">
-                                <div className="image">
-                                    <img src="assets/images/gallery/1.jpg" alt="" />
-                                </div>
-                                <div className="content-box">
-                                    <h4>Acme Client</h4>
-                                    <div className="designation">Integrated Mobile Middleware</div>
-                                    <div className="text">Pellentesque id nulla eget orci mollis iaculis. Mauris luctus neque quis felis mattis finibus. Donec eget posuere odio. Suspendisse libero mi, consequat vitae.</div>
-                                </div>
+            <Swiper {...swiperOptions} className="s-sliders">
+                
+                {/* Gallery Block */}
+                <SwiperSlide>
+                    <div className="project-block">
+                        <div className="inner-box">
+                            <div className="image">
+                                <img src="assets/images/developer1.avif" alt="" />
+                            </div>
+                            <div className="content-box">
+                                <h4>Global Tech Solutions</h4>
+                                <div className="designation">Advanced AI Integration</div>
+                                <div className="text">Implementing cutting-edge AI solutions to enhance business processes and deliver superior user experiences.</div>
                             </div>
                         </div>
-                    </SwiperSlide>
-                    {/* Gallery Block */}
-                    <SwiperSlide>
-                        <div className="project-block">
-                            <div className="inner-box">
-                                <div className="image">
-                                    <img src="assets/images/gallery/2.jpg" alt="" />
-                                </div>
-                                <div className="content-box">
-                                    <h4>Jefferson & Co.</h4>
-                                    <div className="designation">Reduced Interactive Monitoring</div>
-                                    <div className="text">Pellentesque id nulla eget orci mollis iaculis. Mauris luctus neque quis felis mattis finibus. Donec eget posuere odio. Suspendisse libero mi, consequat vitae.</div>
-                                </div>
+                    </div>
+                </SwiperSlide>
+                
+                {/* Gallery Block */}
+                <SwiperSlide>
+                    <div className="project-block">
+                        <div className="inner-box">
+                            <div className="image">
+                                <img src="assets/images/developer2.avif" alt="" />
+                            </div>
+                            <div className="content-box">
+                                <h4>Innovatech</h4>
+                                <div className="designation">Cloud-Based Platform Development</div>
+                                <div className="text">Developed a scalable cloud platform that supports real-time data processing and analytics for global clients.</div>
                             </div>
                         </div>
-                    </SwiperSlide>
-                    {/* Gallery Block */}
-                    <SwiperSlide>
-                        <div className="project-block">
-                            <div className="inner-box">
-                                <div className="image">
-                                    <img src="assets/images/gallery/1.jpg" alt="" />
-                                </div>
-                                <div className="content-box">
-                                    <h4>Acme Client</h4>
-                                    <div className="designation">Integrated Mobile Middleware</div>
-                                    <div className="text">Pellentesque id nulla eget orci mollis iaculis. Mauris luctus neque quis felis mattis finibus. Donec eget posuere odio. Suspendisse libero mi, consequat vitae.</div>
-                                </div>
+                    </div>
+                </SwiperSlide>
+                
+                {/* Gallery Block */}
+                <SwiperSlide>
+                    <div className="project-block">
+                        <div className="inner-box">
+                            <div className="image">
+                                <img src="assets/images/developer3.avif" alt="" />
+                            </div>
+                            <div className="content-box">
+                                <h4>NextGen Enterprises</h4>
+                                <div className="designation">E-Commerce Optimization</div>
+                                <div className="text">Optimized e-commerce platforms to improve user engagement, reduce load times, and boost conversions.</div>
                             </div>
                         </div>
-                    </SwiperSlide>
-                    {/* Gallery Block */}
-                    <SwiperSlide>
-                        <div className="project-block">
-                            <div className="inner-box">
-                                <div className="image">
-                                    <img src="assets/images/gallery/2.jpg" alt="" />
-                                </div>
-                                <div className="content-box">
-                                    <h4>Jefferson & Co.</h4>
-                                    <div className="designation">Reduced Interactive Monitoring</div>
-                                    <div className="text">Pellentesque id nulla eget orci mollis iaculis. Mauris luctus neque quis felis mattis finibus. Donec eget posuere odio. Suspendisse libero mi, consequat vitae.</div>
-                                </div>
+                    </div>
+                </SwiperSlide>
+                
+                {/* Gallery Block */}
+                <SwiperSlide>
+                    <div className="project-block">
+                        <div className="inner-box">
+                            <div className="image">
+                                <img src="assets/images/developer4.avif" alt="" />
                             </div>
-                        </div>        
-                    </SwiperSlide>
-                </Swiper>     
-
+                            <div className="content-box">
+                                <h4>Bright Future Inc.</h4>
+                                <div className="designation">Sustainable Tech Solutions</div>
+                                <div className="text">Focused on creating sustainable technology solutions that minimize environmental impact and promote green practices.</div>
+                            </div>
+                        </div>
+                    </div>        
+                </SwiperSlide>
+            </Swiper>     
         </>
     )
 }

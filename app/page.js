@@ -23,12 +23,12 @@ export default function Home() {
                 <Certificate/>
                 <Services/>
                 <Software/>
-                <Booking/>
+                {/* <Booking/> */}
                 <Experience />
-                <Testimonial />
+                {/* <Testimonial /> */}
                 <Portfolio />
                 <Blog />
-                <Faq />
+                {/* <Faq /> */}
                 <Talk />
                 <Cta />
             </Layout>

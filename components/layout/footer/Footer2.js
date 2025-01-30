@@ -26,7 +26,7 @@ export default function Footer2() {
 							<div className="footer-column col-lg-6 col-md-6 col-sm-12">
 								<div className="footer-widget">
 									<h4>Contact</h4>
-									<div className="text">422 Ryder Avenue <br/> Seattle, WA <br/> 98109</div>
+									<div className="text">Rathinam Tech Park, <br/> Coimbatore<br/> 641201</div>
 								</div>
 							</div>
 							
@@ -43,7 +43,7 @@ export default function Footer2() {
 									<h4>Get In Touch</h4>
 									<ul className="contact-info">
 										<li><Link href="tel:+012-345-6789">(012) 345 - 6789</Link></li>
-										<li><Link href="mailto:denise@contact.com">denise@contact.com</Link></li>
+										<li><Link href="mailto:denise@contact.com">Logeswari@contact.com</Link></li>
 									</ul>
 								</div>
 							</div>
@@ -55,7 +55,7 @@ export default function Footer2() {
 									<div className="social-box">
 										<Link target="_blank" href="http://facebook.com/" className="fab fa-facebook-f"></Link>
 										<Link target="_blank" href="http://twitter.com/" className="fab fa-twitter"></Link>
-										<Link target="_blank" href="http://linkedin.com/" className="fab fa-linkedin-in"></Link>
+										<Link target="_blank" href="https://www.linkedin.com/in/logeswari-ravi-070822225/" className="fab fa-linkedin-in"></Link>
 									</div>
 								</div>
 							</div>

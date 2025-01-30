@@ -15,9 +15,9 @@ export default function Talk() {
                                 <h2>Let’s Talk</h2>
                             </div>
                             <ul className="contact-list">
-                                <li><Link href="#"><span className="icon flaticon-skype"></span>JessicaHornes</Link></li>
-                                <li><Link href="#"><span className="icon flaticon-whatsapp"></span>(012) 345 - 6789</Link></li>
-                                <li><Link href="#"><span className="icon flaticon-slack"></span>jessh.slack.com</Link></li>
+                                <li><Link href="#"><span className="icon flaticon-skype"></span>Logeswari Ravi</Link></li>
+                                <li><Link href="#"><span className="icon flaticon-whatsapp"></span>(814) 802 - 6390</Link></li>
+                                <li><Link href="#"><span className="icon flaticon-slack"></span>LogeswariRavi.slack.com</Link></li>
                             </ul>
                         </div>
                     </div>

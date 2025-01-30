@@ -15,12 +15,12 @@ export default function Footer1() {
 						{/* Column */}
 						<div className="column col-lg-6 col-md-12 col-sm-12">
 							<h4>Contact</h4>
-							<div className="address">4222 Ryder Avenue Seattle, <br/> WA 98109</div>
+							<div className="address">Rathinam Tech Park, <br/> Coimbatore</div>
 							{/* Social Box */}
 							<div className="social-box">
 								<Link target="_blank" href="http://facebook.com/" className="fab fa-facebook-f"></Link>
 								<Link target="_blank" href="http://twitter.com/" className="fab fa-twitter"></Link>
-								<Link target="_blank" href="http://linkedin.com/" className="fab fa-linkedin-in"></Link>
+								<Link target="_blank" href="https://www.linkedin.com/in/logeswari-ravi-070822225/" className="fab fa-linkedin-in"></Link>
 							</div>
 						</div>
 					</div>
