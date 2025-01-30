@@ -21,7 +21,7 @@ export default function Menu() {
                         <li><Link href="blog-detail">Blog Details</Link></li>
                     </ul> */}
                 </li>
-                <li ><Link href="blog-classic"><span data-hover="Pages">Services</span></Link>
+                <li ><Link href="blog-classic"><span data-hover="Services">Services</span></Link>
                     {/* <ul>
                         <li><Link href="/">Home</Link></li>
                         <li><Link href="blog">Our Blog</Link></li>
