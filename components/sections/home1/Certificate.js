@@ -77,18 +77,18 @@ export default function Certificate() {
                             </div>
                         </div>
                     </SwiperSlide>
-                    <SwiperSlide>
-                        <div className="certificate-block">
-                            <div className="inner-box">
-                                <div className="icon-box">
-                                    <span className="icon flaticon-diploma"></span>
-                                </div>
-                                <h3><Link href="#">Next.js, React.js</Link></h3>
-                                <div className="text">Certificate from NextOne Solutions</div>
-                                <div className="post-date"><span className="icon flaticon-calendar"></span>Graduated December, 2023</div>
-                            </div>
-                        </div>
-                    </SwiperSlide>
+                    // <SwiperSlide>
+                    //     <div className="certificate-block">
+                    //         <div className="inner-box">
+                    //             <div className="icon-box">
+                    //                 <span className="icon flaticon-diploma"></span>
+                    //             </div>
+                    //             <h3><Link href="#">Next.js, React.js</Link></h3>
+                    //             <div className="text">Certificate from NextOne Solutions</div>
+                    //             <div className="post-date"><span className="icon flaticon-calendar"></span>Graduated December, 2023</div>
+                    //         </div>
+                    //     </div>
+                    // </SwiperSlide>
                 </Swiper>
             </div>
         </section>
