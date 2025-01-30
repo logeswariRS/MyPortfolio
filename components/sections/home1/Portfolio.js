@@ -35,7 +35,7 @@ export default function Portfolio() {
                             <ul className="product-tab-btns clearfix">
                                 <li className={activeIndex == 1 ? "p-tab-btn active-btn" : "p-tab-btn"} onClick={() => handleOnClick(1)}><span>01</span>Maze Runner (Three.js)</li>
                                 <li className={activeIndex == 2 ? "p-tab-btn active-btn" : "p-tab-btn"} onClick={() => handleOnClick(2)}><span>02</span>Food Order Website (Vue.js)</li>
-                                <li className={activeIndex == 3 ? "p-tab-btn active-btn" : "p-tab-btn"} onClick={() => handleOnClick(3)}><span>03</span>Ticket Booking System (React.js)</li>
+                                <li className={activeIndex == 3 ? "p-tab-btn active-btn" : "p-tab-btn"} onClick={() => handleOnClick(3)}><span>03</span>My Portfolio (next.js)</li>
                                 <li className={activeIndex == 4 ? "p-tab-btn active-btn" : "p-tab-btn"} onClick={() => handleOnClick(4)}><span>04</span>Bus Booking System (React.js)</li>
                             </ul>
                         </div>
