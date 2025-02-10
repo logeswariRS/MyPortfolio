@@ -35,7 +35,7 @@ export default function Blog() {
                                                         <img src="assets/images/react.avif" alt="" />
                                                     </div>
                                                     Logeswari Ravi
-                                                    <span>Frontend Developer</span>
+                                                    <span>Fullstack Developer</span>
                                                 </div>
                                             </div>
                                         </div>
