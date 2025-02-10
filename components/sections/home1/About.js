@@ -30,7 +30,7 @@ export default function About() {
                             <div className="sec-title">
                                 <h2>About Me</h2>
                             </div>
-                            <div className="text">I am Logeswari Ravi, a passionate Frontend Developer with expertise in Three.js, React.js, Next.js, Vue.js, Python, SQL, and Node.js. I specialize in creating interactive and responsive web applications that provide engaging user experiences.</div>
+                            <div className="text">I am Logeswari Ravi, a passionate Fullstack Developer with expertise in Three.js, React.js, Next.js, Vue.js, Python, SQL, and Node.js. I specialize in creating interactive and responsive web applications that provide engaging user experiences.</div>
                             <Link href="portfolio" className="theme-btn btn-style-four"><span className="txt">Portfolio</span></Link>
                         </div>
                     </div>
