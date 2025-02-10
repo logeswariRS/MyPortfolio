@@ -65,7 +65,7 @@ export default function Blog() {
                                                         <img src="assets/images/3d.avif" alt="" />
                                                     </div>
                                                     Logeswari Ravi
-                                                    <span>Frontend Developer</span>
+                                                    <span>Fullstack Developer</span>
                                                 </div>
                                             </div>
                                         </div>
@@ -89,7 +89,7 @@ export default function Blog() {
                                                         <img src="assets/images/database-skill.avif" alt="" />
                                                     </div>
                                                     Logeswari Ravi
-                                                    <span>Backend Developer</span>
+                                                    <span>Fullstack Developer</span>
                                                 </div>
                                             </div>
                                         </div>
@@ -113,7 +113,7 @@ export default function Blog() {
                                                         <img src="assets/images/next.png" alt="" />
                                                     </div>
                                                     Logeswari Ravi
-                                                    <span>Frontend Developer</span>
+                                                    <span>Fullstack Developer</span>
                                                 </div>
                                             </div>
                                         </div>
