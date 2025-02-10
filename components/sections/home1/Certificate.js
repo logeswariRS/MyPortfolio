@@ -49,7 +49,7 @@ export default function Certificate() {
                                 </div>
                                 <h3><Link href="#">HTML, CSS, JS</Link></h3>
                                 <div className="text">Certificate from River</div>
-                                <div className="post-date"><span className="icon flaticon-calendar"></span>Graduated June, 2021</div>
+                                <div className="post-date"><span className="icon flaticon-calendar"></span>Graduated June, 2022</div>
                             </div>
                         </div>
                     </SwiperSlide>
@@ -61,7 +61,7 @@ export default function Certificate() {
                                 </div>
                                 <h3><Link href="#">Three.js</Link></h3>
                                 <div className="text">Certificate from Cad+t Solutions</div>
-                                <div className="post-date"><span className="icon flaticon-calendar"></span>Graduated September, 2022</div>
+                                <div className="post-date"><span className="icon flaticon-calendar"></span>Graduated June, 2024</div>
                             </div>
                         </div>
                     </SwiperSlide>
@@ -73,7 +73,7 @@ export default function Certificate() {
                                 </div>
                                 <h3><Link href="#">Next.js, React.js</Link></h3>
                                 <div className="text">Certificate from NextOne Solutions</div>
-                                <div className="post-date"><span className="icon flaticon-calendar"></span>Graduated December, 2023</div>
+                                <div className="post-date"><span className="icon flaticon-calendar"></span>Graduated January, 2024</div>
                             </div>
                         </div>
                     </SwiperSlide>
@@ -85,7 +85,7 @@ export default function Certificate() {
                                 </div>
                                 <h3><Link href="#">MYSQL , node.js</Link></h3>
                                 <div className="text">Certificate from NextOne Solutions</div>
-                                <div className="post-date"><span className="icon flaticon-calendar"></span>Graduated December, 2023</div>
+                                <div className="post-date"><span className="icon flaticon-calendar"></span>Graduated January, 2024</div>
                             </div>
                         </div>
                     </SwiperSlide>
